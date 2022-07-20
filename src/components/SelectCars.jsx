@@ -3,7 +3,7 @@ import React from 'react'
 function SelectCars() {
 	return (
 		<div className='flex justify-center items-center mt-[-80px]'>
-			<div className='rounded-lg bg-white border-2 border-[#000000] py-6 px-4 md:flex md:justify-center 
+			<div className='rounded-lg bg-white border-2 border-[#000000] py-6 px-4 shadow-2xl md:flex md:justify-center 
 			     md:items-center md:w-[746px] lg:w-[846px] md:h-[150px]'>
 				<div>
 					<div className=' hidden md:block text-base font-normal text-[#344054] ' >
