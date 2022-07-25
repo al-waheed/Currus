@@ -4,11 +4,11 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 function Stories() {
 	return (
-		<div className='mt-32'>
+		<div className='mt-12 md:mt-32'>
 			<h3 className='text-2xl leading-9 font-semibold md:text-5xl md:leading-[72px] 
 	              text-[#000000] text-center'>Read Our Stories</h3>
-			<div className='md:flex md:justify-evenly mt-12'>
-				<div className='mt-8 w-[374px] h-[520px] border-2 border-[#000000] rounded-lg bg-[#F5F6F8]'>
+			<div className='mt-12 flex justify-evenly items-center flex-wrap'>
+				<div className='w-[374px] h-[520px] border-2 border-[#000000] rounded-lg bg-[#F5F6F8]'>
 					<img src='/icons/Blog Image.jpg' alt='blog_img' className='w-[374px] h-[273px]' />
 					<div className='pl-8 mt-8'>
 						<h3 className='text-2xl leading-9 font-semibold text-[#000000]'>
@@ -23,7 +23,7 @@ function Stories() {
 					</div>
 				</div>
 
-				<div className='mt-8 w-[374px] h-[520px] border-2 border-[#000000] rounded-lg bg-[#F5F6F8]'>
+				<div className='mt-8 md:mt-0 w-[374px] h-[520px] border-2 border-[#000000] rounded-lg bg-[#F5F6F8]'>
 					<img src='/icons/Blog Image (1).jpg' alt='blog_img' className='w-[374px] h-[273px]' />
 					<div className='pl-8 mt-8'>
 						<h3 className='text-2xl leading-9 font-semibold text-[#000000]'>
@@ -37,7 +37,7 @@ function Stories() {
 						</p>
 					</div>
 				</div>
-				<div className='mt-8 w-[374px] h-[520px] border-2 border-[#000000] rounded-lg bg-[#F5F6F8]'>
+				<div className='mt-8 md:mt-0 w-[374px] h-[520px] border-2 border-[#000000] rounded-lg bg-[#F5F6F8]'>
 					<img src='/icons/Blog Image (2).jpg' alt='blog_img' className='w-[374px] h-[273px]' />
 					<div className='pl-8 mt-8'>
 						<h3 className='text-2xl leading-9 font-semibold text-[#000000]'>
@@ -51,6 +51,9 @@ function Stories() {
 						</p>
 					</div>
 				</div>
+			</div>
+			<div className='text-center mt-12'>
+            <button className='bg-[#2A1246] w-[374px] h-[60px] rounded-lg text-white text-lg'>View More</button>
 			</div>
 		</div>
 	)

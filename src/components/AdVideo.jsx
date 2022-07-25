@@ -35,8 +35,8 @@ function AdVideo() {
 				</div>
 			</div>
 			<div className='flex justify-center mt-32'>
-			<iframe src="https://www.youtube.com/embed/8GaBm26mUMM" title="YouTube video"
-                    frameborder="0" className='w-[374px] h-[211px] md:w-[700px] md:[500px] lg:w-[1216px] lg:h-[550px]'
+			<iframe src="https://www.youtube.com/embed/B2-D7CbsijM" title="YouTube video"
+                    frameborder="0" className='w-[374px] h-[250px] md:w-[700px] md:[500px] lg:w-[1216px] lg:h-[550px]'
 					 allow="accelerometer; autoplay; encrypted-media; gyroscope; 
 					picture-in-picture" allowfullscreen >
             </iframe>

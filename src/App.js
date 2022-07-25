@@ -6,6 +6,8 @@ import CarLogo from './components/CarLogo';
 import AdVideo from './components/AdVideo';
 import CustomerReviews from './components/CustomerReviews';
 import Stories from './components/Stories.jsx'
+import OtherService from './components/OtherService';
+import NewsLetter from './components/NewsLetter';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
      <AdVideo />
       <CustomerReviews />
       <Stories />
+      <OtherService />
+      <NewsLetter />
     </div>
   );
 }
