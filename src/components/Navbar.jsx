@@ -10,7 +10,7 @@ const Navbar = () => {
 
 	return (
 		<div className='flex justify-between items-center h-28 max-w-[1240px] mx-auto px-4'>
-			<h1 className='text-[#000000]'><FontAwesomeIcon className='text-4xl' icon={faCarTunnel} /></h1>
+			<h1 className='text-[#000000] text-2xl leading-9 font-semibold'><FontAwesomeIcon className='text-4xl' icon={faCarTunnel}/> Currus.NG</h1>
 			<ul className='hidden lg:flex items-center font-normal text-lg text-[#000000]'>
 				<li className='px-7'>Home</li>
 				<li className='px-7'>Cars</li>
