@@ -8,6 +8,7 @@ import CustomerReviews from './components/CustomerReviews';
 import Stories from './components/Stories.jsx'
 import OtherService from './components/OtherService';
 import NewsLetter from './components/NewsLetter';
+import DownloadApp from './components/DownloadApp';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <CustomerReviews />
       <Stories />
       <OtherService />
+      <DownloadApp />
       <NewsLetter />
     </div>
   );

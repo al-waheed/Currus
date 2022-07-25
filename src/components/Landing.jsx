@@ -2,7 +2,7 @@ import React from 'react'
 
 const Landing = () => {
   return (
-    <div className='flex flex-col justify-center items-center w-full bg-[#F2F5FC] h-[50vh] md:h-[78vh] lg:flex-row'>
+    <div className='flex flex-col justify-center items-center w-full bg-[#F2F5FC] h-[50vh] md:h-[77vh] lg:flex-row'>
       <div className='text-[#000000] text-center md:w-[350px] lg:text-left'>
         <h1 className='w-[200px] font-bold text-4xl leading-9 md:font-semibold md:w-[350px] md:text-[69px] 
         md:leading-[69px]'>
